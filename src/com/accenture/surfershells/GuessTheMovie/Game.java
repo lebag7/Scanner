@@ -46,16 +46,7 @@ public class Game {
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-
-		// random Movie aus Array auswählen
-
-		int randomIndex = (int) (Math.random() * movieList.size());
-		String randomMovie = movieList.get(randomIndex).toLowerCase();
-
-		System.out.println(randomMovie);
-
-		String randomMovieString = randomMovie.replaceAll("[a-z]", "-");
-		System.out.println(randomMovieString);
+System.out.println(movieList);
 	}
 
 }
