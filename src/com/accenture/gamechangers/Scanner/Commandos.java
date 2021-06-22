@@ -7,7 +7,8 @@ public class Commandos {
 	
 	public void importFile (String input, Scanner scanner) {
 		if("IMPORT".equals(input)) {
-		new	TextReader().fileReader("C:/Users/yasmine.gabel/eclipse-workspace/scanner/Movies.txt");
+		new	TextReader().fileReader("Movies.txt");
+//		"C:/Users/yasmine.gabel/eclipse-workspace/scanner/Movies.txt"
 		}
 	}
 	
