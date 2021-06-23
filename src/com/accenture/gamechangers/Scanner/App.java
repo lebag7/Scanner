@@ -3,9 +3,6 @@ import java.util.Scanner;
 
 public class App {
 
-	static enum Commands {
-		QUIT, SHOW, IMPORT, ADD
-	}
 
 	public static void main(String[] args) {
 
