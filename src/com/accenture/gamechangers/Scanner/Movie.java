@@ -1,5 +1,4 @@
 package com.accenture.gamechangers.Scanner;
-import java.util.Scanner;
 
 
 public class Movie {
